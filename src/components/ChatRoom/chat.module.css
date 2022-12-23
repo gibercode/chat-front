@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Nanum+Gothic+Coding:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+.main {
+  background-color: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.messagesContainer {
+  background-color: #151515;
+  height: 25rem;
+  width: 50vw;
+  overflow-y: auto;
+}
+
+.roomName {
+  color: #FFF;
+  font-family: 'Creepster', cursive;
+}
+
+.myMessage {
+  color: #FFF;
+  background: #4776E6;
+  background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);
+  background: linear-gradient(to right, #8E54E9, #4776E6);
+  width: fit-content;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  margin-left: 0.375rem;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.myMessage:not(:first-child) {
+  margin-top: 0.75rem;
+}
+
+.receivedMessage {
+  display: block;
+  margin-left: auto;
+  color: #FFF;
+  background: #FF8008;
+  background: -webkit-linear-gradient(to right, #FFC837, #FF8008);
+  background: linear-gradient(to right, #FFC837, #FF8008);
+  width: fit-content;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.receivedMessage:not(:first-child) {
+  margin-top: 0.75rem;
+}
+
+.messagesList {
+  list-style: none;
+  padding: 0;
+}
+
+.newMessageInputField {
+  background-color: #0d0d0d;
+  padding: 1rem;
+  width: 80%;
+  border: 1px solid #666;
+  color: #FFF;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+._inputParent {
+  display: flex;
+  margin-top: 0.6rem;
+}
+
+.sendMessageButton {
+  width: 20%;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  cursor: pointer;
+  font-family: 'Nanum Gothic Coding', monospace;
+}

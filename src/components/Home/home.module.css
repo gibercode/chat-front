@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Nanum+Gothic+Coding:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+._main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+}
+
+._input {
+  color: #FFF;
+  padding: 1rem 1.1rem;
+  min-width: 18.75rem;
+  box-sizing: border-box;
+  border-radius: 0.3125rem;
+  border: solid 1px #666;
+  background-color: #0d0d0d;
+  font-family: 'Nanum Gothic Coding', monospace; 
+  font-size: 0.875rem;
+}
+
+._form {
+  display: flex;
+  flex-direction: column;
+}
+
+._btn {
+  background-color: red;
+  margin-top: 1rem;
+  padding: 0.7rem 0.9rem;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0.625rem;
+  text-decoration: none;
+  color: white;
+  transition: all .6s;
+  font-family: 'Nanum Gothic Coding', monospace; 
+}
+
+._btn:hover {
+  background-color: white;
+  color: #0d0d0d;
+  transition: all .6s;
+}
